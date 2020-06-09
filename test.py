@@ -1,9 +1,15 @@
-def factorial_numero(n):
-    factorial=1
-    while n>0:
-        factorial=factorial*n
-        n-=1
-    return factorial
+my_string ="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+text= "Cod Facilito"
 
-r=factorial_numero(5)
-print(r)
+#métodos para dar formato
+result= '{x} conectando {y}'.format(y=my_string,x=text)
+result= result.title()
+print(result)
+
+#métodos de búsqueda
+po= result.count('s')
+print(po)
+
+new= result.replace('s','x')
+new= result.split(' ')
+print(new)
