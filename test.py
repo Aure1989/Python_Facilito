@@ -1,15 +1,10 @@
-my_string ="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-text= "Cod Facilito"
+dicc = {'a':55, 22:"Esto es texto o string", 'a':125}
+dicc['c']="Nicole no te ama"
 
-#métodos para dar formato
-result= '{x} conectando {y}'.format(y=my_string,x=text)
-result= result.title()
-print(result)
+del dicc['c']
 
-#métodos de búsqueda
-po= result.count('s')
-print(po)
+value= dicc.get('z', "No existe esa clave")
 
-new= result.replace('s','x')
-new= result.split(' ')
-print(new)
+llaves= list(dicc.keys())
+print(llaves)
+print(dicc)
