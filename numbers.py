@@ -8,7 +8,7 @@
 # print (5//2) #// devuelve un entero
 # print (5%2) #Operador de módulo, me permite obtener el residuo
 
-age = input ("Coloca tu edad: ")
-#por defecto se considera string (input), por eso la aclaración
-new_age = int(age)+10 
-print (new_age)
+# age = input ("Coloca tu edad: ")
+# #por defecto se considera string (input), por eso la aclaración
+# new_age = int(age)+10 
+# print (new_age)
