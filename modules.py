@@ -12,4 +12,4 @@
 
 #usando colorama
 from colorama import Fore, Style
-print (Style.DIM+"Hello World")
+print (Fore.BLUE+"Hello World")
